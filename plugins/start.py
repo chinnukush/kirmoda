@@ -71,7 +71,7 @@ async def start_command(client: Client, message: Message):
         return await message.reply_text(
             "<b>⛔️ You are Bᴀɴɴᴇᴅ from using this bot.</b>\n\n"
             "<i>Contact support if you think this is a mistake.</i>",
-            reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("Contact Support", url=BAN_SUPPORT)
+            reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("𝖈𝖔𝖓𝖙𝖆𝖈𝖙 𝖘𝖚𝖕𝖕𝖔𝖗𝖙 🛠️", url=BAN_SUPPORT)
         ],[
             InlineKeyboardButton("𝖍𝖊𝖑𝖕 🆘", callback_data="help"),
             InlineKeyboardButton("𝖆𝖇𝖔𝖚𝖙 ℹ️", callback_data="about")
@@ -193,12 +193,15 @@ async def start_command(client: Client, message: Message):
             except Exception as e:
                 print(f"Error updating notification with 'Get File Again' button: {e}")
     else:
-        reply_markup = InlineKeyboardMarkup(
-            [
-                    [InlineKeyboardButton("Contact Support", url=BAN_SUPPORT)],
-
+        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("𝖈𝖔𝖓𝖙𝖆𝖈𝖙 𝖘𝖚𝖕𝖕𝖔𝖗𝖙 🛠️", url=BAN_SUPPORT)
+        ],[
+            InlineKeyboardButton("𝖍𝖊𝖑𝖕 🆘", callback_data="help"),
+            InlineKeyboardButton("𝖆𝖇𝖔𝖚𝖙 ℹ️", callback_data="about")
+        ],[
+            InlineKeyboardButton("𝖕𝖗𝖊𝖒𝖎𝖚𝖒 💎", callback_data="premium")
+        ]
     ]
-        )
+)
         await message.reply_photo(
             photo=START_PIC,
             caption=START_MSG.format(
