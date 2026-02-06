@@ -73,10 +73,10 @@ async def start_command(client: Client, message: Message):
             "<i>Contact support if you think this is a mistake.</i>",
             reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("Contact Support", url=BAN_SUPPORT)
         ],[
-            InlineKeyboardButton("𝖍𝖊𝖑𝖕", callback_data="help"),
-            InlineKeyboardButton("𝖆𝖇𝖔𝖚𝖙", callback_data="about")
+            InlineKeyboardButton("𝖍𝖊𝖑𝖕 🆘", callback_data="help"),
+            InlineKeyboardButton("𝖆𝖇𝖔𝖚𝖙 ℹ️", callback_data="about")
         ],[
-            InlineKeyboardButton("𝖕𝖗𝖊𝖒𝖎𝖚𝖒", callback_data="premium")
+            InlineKeyboardButton("𝖕𝖗𝖊𝖒𝖎𝖚𝖒 💎", callback_data="premium")
         ]
     ]
 )
