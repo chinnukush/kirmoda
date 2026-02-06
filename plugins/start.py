@@ -29,11 +29,11 @@ async def short_url(client: Client, message: Message, base64_string):
 
         buttons = [
             [
-                InlineKeyboardButton(text="ᴅᴏᴡɴʟᴏᴀᴅ", url=short_link),
-                InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ", url=TUT_VID)
+                InlineKeyboardButton(text="𝖉𝖔𝖜𝖓𝖑𝖔𝖆𝖉 ⬇️", url=short_link),
+                InlineKeyboardButton(text="𝖙𝖚𝖙𝖔𝖗𝖎𝖆𝖑 📘", url=TUT_VID)
             ],
             [
-                InlineKeyboardButton(text="ᴘʀᴇᴍɪᴜᴍ", callback_data="premium")
+                InlineKeyboardButton(text="𝖕𝖗𝖊𝖒𝖎𝖚𝖒 💎", callback_data="premium")
             ]
         ]
 
