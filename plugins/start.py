@@ -71,10 +71,15 @@ async def start_command(client: Client, message: Message):
         return await message.reply_text(
             "<b>⛔️ You are Bᴀɴɴᴇᴅ from using this bot.</b>\n\n"
             "<i>Contact support if you think this is a mistake.</i>",
-            reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Contact Support", url=BAN_SUPPORT)]]
-            )
-        )
+            reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("Contact Support", url=BAN_SUPPORT)
+        ],[
+            InlineKeyboardButton("Help", callback_data="help"),
+            InlineKeyboardButton("About", callback_data="about")
+        ],[
+            InlineKeyboardButton("Premium", callback_data="premium")
+        ]
+    ]
+)
 
     # File auto-delete time in seconds
     FILE_AUTO_DELETE = await db.get_del_timer()
