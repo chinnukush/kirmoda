@@ -79,7 +79,7 @@ async def start_command(client: Client, message: Message):
             InlineKeyboardButton("𝖕𝖗𝖊𝖒𝖎𝖚𝖒 💎", callback_data="premium")
         ]
     ]
-)
+))
 
     # File auto-delete time in seconds
     FILE_AUTO_DELETE = await db.get_del_timer()
