@@ -25,7 +25,7 @@ BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Thecinemacircle3")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/v6j5cmNx/571f351e38dc.jpg https://i.ibb.co/gMKy4Cj2/c5d6bdd34206.jpg https://i.ibb.co/67jm0RcG/9c6998700803.jpg https://i.ibb.co/TxpsNg21/5d6220e2a087.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://image.zaw-myo.workers.dev/image/e3031533-e96c-4e57-b248-a8f3726d4211")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/RkFKXdzZ/ab3f2ad85d1b.jpg")
 
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "arolinks.com")
