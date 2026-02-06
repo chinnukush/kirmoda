@@ -12,7 +12,7 @@ API_HASH = os.environ.get("API_HASH", "bb8f36f9c39a24c7f8b2acbc7ea8c60a") #Your 
 #--------------------------------------------
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002158404983")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "Thecinemacircle3") # Owner username without @
+OWNER = os.environ.get("OWNER", "helperxsupport") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "8075224687")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
@@ -21,7 +21,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://anikush8310_db_user:89zE0
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Thecinemacircle3")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/helperxsupport")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/v6j5cmNx/571f351e38dc.jpg https://i.ibb.co/gMKy4Cj2/c5d6bdd34206.jpg https://i.ibb.co/67jm0RcG/9c6998700803.jpg https://i.ibb.co/TxpsNg21/5d6220e2a087.jpg")
@@ -79,10 +79,10 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "suryabm04")
-UPI_ID = os.environ.get("UPI_ID", "suryabm18@axl")
-QR_PIC = os.environ.get("QR_PIC", "https://i.ibb.co/D3hRCwp/7253187871-24363.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/suryabm04")
+OWNER_TAG = os.environ.get("OWNER_TAG", "helperxsupport")
+UPI_ID = os.environ.get("UPI_ID", "kushalhari@slc")
+QR_PIC = os.environ.get("QR_PIC", "https://i.ibb.co/21ZPjBNw/071d44198b51.jpg")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/helperxsupport")
 #--------------------------------------------
 #Time and its price
 #7 Days
